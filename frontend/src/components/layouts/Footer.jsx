@@ -5,7 +5,7 @@ export default function Footer(){
     <>
         <footer>
             <p className="text-center">
-                Food Delivery Website - 2024-25. All Rights Reserved By Prasad...
+                Food Delivery Website - 2024-25. All Rights Reserved
             </p>
         </footer>
     </>
