@@ -67,7 +67,7 @@ const {isAuthenticated, loading, error} = useSelector(
                     onChange={(e) => setPassword(e.target.value)}
                   ></input>
                 </div>
-                <Link to="/users/forgetPassword" className="float-right mb-4">Forgot Password</Link>
+                <Link to="/users/forgotPassword" className="float-right mb-4">Forgot Password</Link>
                 <button
                   id="login_button"
                   type="submit"
