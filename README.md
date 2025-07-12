@@ -5,7 +5,7 @@ A full-stack online food-ordering website that allows users to browse a wide var
 
 ### Customer-Facing Features
 - **Browse & Order from a Large Menu**
-  
+
   Menu items are dynamically loaded from *MongoDB*, offering multiple categories and rich details.
   
   <img width="1918" height="875" alt="Screenshot 2025-07-11 215546" src="https://github.com/user-attachments/assets/02a28efd-e654-470a-a0bc-a42cbf42492c" />
@@ -26,11 +26,19 @@ A full-stack online food-ordering website that allows users to browse a wide var
   <img width="1919" height="882" alt="Screenshot 2025-07-11 220227" src="https://github.com/user-attachments/assets/73de309f-c668-498e-98bf-dd0ee46939f6" />
   <img width="1918" height="876" alt="Screenshot 2025-07-11 220320" src="https://github.com/user-attachments/assets/0ce948c1-e0ee-49a4-8619-347c8de360f0" />
 
-- **Upload Food Images with Cloudinary**  
+- **Upload Food Images with Cloudinary**
+
   Admins or users can upload images via *Cloudinary*, enabling high-performance image hosting and on-the-fly transformations.
 
-- **Authentication & Forgot Password**  
-  Users can sign up, log in, and reset forgotten passwords through an email-based flow powered by *Mailtrap* (for dev/testing).
+- **Authentication & Forgot Password**
+  
+  Users can sign up, log in, update profile and reset forgotten passwords through an email-based flow powered by *Mailtrap* (for dev/testing).
+
+  <img width="1919" height="874" alt="Screenshot 2025-07-12 012742" src="https://github.com/user-attachments/assets/5803dc23-eb76-4381-825b-5d9dc8dbb770" />
+  <img width="1918" height="875" alt="Screenshot 2025-07-12 012321" src="https://github.com/user-attachments/assets/4fe5b26f-6f0b-44d3-b59e-264bfa94da03" />
+  <img width="1919" height="878" alt="Screenshot 2025-07-12 012259" src="https://github.com/user-attachments/assets/3ccf928e-1f87-423a-a0b8-8fdb31888cca" />
+  <img width="1919" height="879" alt="Screenshot 2025-07-12 121051" src="https://github.com/user-attachments/assets/e844dba7-11df-4001-8f22-fa5c9315d06a" />
+  <img width="1918" height="866" alt="Screenshot 2025-07-12 120930" src="https://github.com/user-attachments/assets/e84c6630-abd7-48cd-9436-c3cebd30ac0f" />
 
 ## Tech Stack
 
@@ -48,7 +56,7 @@ A full-stack online food-ordering website that allows users to browse a wide var
 
 ### 1. Clone the Repo
 ```Powershell
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/Abhi0517/OrderIt-WebApp.git
 cd "FoodOrder\frontend"
 ```
 ### 2. Install Dependencies
@@ -61,7 +69,7 @@ Split the terminal, one for *FoodOrder\frontend* and another for *FoodOrder\Back
 npm start
 ```
 ### 4. Configure Environment Variables
-For backend:
+For backend(Backend-obfuscated\config\config.env):
 ```Powershell
 CLOUDINARY_CLOUD_NAME=cloud_name
 CLOUDINARY_API_KEY=cloudinary_api_key
@@ -76,6 +84,6 @@ STRIPE_API_KEY=your_stripe_api_key
 - Password reset emails are routed via Mailtrap (safe for dev testing).
 - You can extend the app with admin features like:
      - Order management
-     - Menu item management
+     - Menu-items management
      - Analytics dashboard
 ## Feel free to fork and contribute !!
